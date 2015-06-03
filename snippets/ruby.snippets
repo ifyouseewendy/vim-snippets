@@ -735,3 +735,24 @@ snippet is
 	it { should ${0} }
 snippet isn
 	it { should_not ${0} }
+
+# Tomdoc Comment
+snippet tm
+  # Public: ${1:Description}
+  #
+  # ${2:arg} - ${3:Argument}
+  #
+  # Examples
+  #
+  #   ${4:example}
+  #   # => ${5}
+  #
+  # Returns ${6}
+
+snippet tmc
+  # Public: ${1:Description}
+  #
+  # Examples
+  #
+  #   ${2:example}
+  #   # => ${3}
